@@ -174,3 +174,42 @@ body {
   line-height: 1.5;
   color: var(--third-color);
 }
+
+/* ---------------------Portfolio.html------------------- */
+
+/* ============PORTFOLIO SECTION============ */
+.portfolio {
+  background-color: var(--primary-color);
+}
+.title-portfolio {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  color: var(--base-txt-clr);
+}
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--base-btn-clr);
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--secondary-btn-clr);
+}
+.portfolio-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--base-txt-clr);
+}
+.portfolio-category {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-clr);
+}
