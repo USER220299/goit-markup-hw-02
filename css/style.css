@@ -57,6 +57,9 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .contact {
   font-size: 16px;
   line-height: 1.5;
@@ -169,7 +172,8 @@ body {
   text-transform: uppercase;
   color: var(--third-color);
 }
-.footer-end {
+.footer > p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--third-color);
