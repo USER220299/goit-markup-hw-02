@@ -8,6 +8,7 @@
   --secondary-text-clr: #434455;
   --base-btn-clr: #4d5ae5;
   --secondary-btn-clr: #404bbf;
+  --logo-one-clr: #4d5ae5;
 }
 body {
   font-family: var(--font-family);
@@ -27,7 +28,16 @@ body {
   background-color: var(--white-color);
 }
 
-.header-logo {
+.header-logo-one {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-one-clr);
+}
+.header-logo-two {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -64,10 +74,12 @@ body {
 .title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.1;
+  text-align: center;
   color: var(--white-color);
 }
 .modal-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -88,6 +100,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  text-align: center;
   color: var(--base-txt-clr);
 }
 .main-feature {
@@ -108,6 +121,7 @@ body {
 .title-wedoing {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
   line-height: 1.1;
   color: var(--base-txt-clr);
 }
@@ -119,6 +133,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  text-align: center;
   color: var(--base-txt-clr);
 }
 .name {
@@ -136,7 +151,16 @@ body {
 .footer {
   background-color: var(--secondary-color);
 }
-.footer-logo {
+.footer-logo-one {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-one-clr);
+}
+.footer-logo-two {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
