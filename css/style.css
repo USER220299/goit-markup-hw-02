@@ -1,0 +1,152 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --white-color: #ffffff;
+  --secondary-color: #2e2f42;
+  --primary-color: #e5e5e5;
+  --third-color: #f4f4fd;
+  --base-txt-clr: #2e2f42;
+  --secondary-text-clr: #434455;
+  --base-btn-clr: #4d5ae5;
+  --secondary-btn-clr: #404bbf;
+}
+body {
+  font-family: var(--font-family);
+  letter-spacing: 0.02em;
+}
+
+/* ============resert perematers=========== */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*=========== HEADER SECTION========== */
+.header {
+  background-color: var(--white-color);
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--base-txt-clr);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--base-txt-clr);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.contact {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-clr);
+}
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+/*=========== HERO SECTION========== */
+.hero {
+  background-color: var(--secondary-color);
+}
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--base-btn-clr);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--secondary-btn-clr);
+}
+/*=========== FEATURE SECTION========== */
+.feature {
+  background-color: var(--primary-color);
+}
+.title-feature {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--base-txt-clr);
+}
+.main-feature {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--base-txt-clr);
+}
+.item-feature {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-clr);
+}
+/*=========== WE DOING SECTION========== */
+.wedoing {
+  background-color: var(--primary-color);
+}
+.title-wedoing {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--base-txt-clr);
+}
+/*=========== TEAM SECTION========== */
+.team {
+  background-color: var(--third-color);
+}
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--base-txt-clr);
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--base-txt-clr);
+}
+.position {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-clr);
+}
+/*=========== FOOTER SECTION========== */
+.footer {
+  background-color: var(--secondary-color);
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+.footer-end {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--third-color);
+}
