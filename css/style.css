@@ -52,6 +52,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--base-txt-clr);
 }
 .menu-link:hover,
@@ -64,6 +65,7 @@ body {
 .contact {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-clr);
 }
 .contact:hover,
@@ -132,11 +134,15 @@ body {
   text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--base-txt-clr);
 }
 /*=========== TEAM SECTION========== */
 .team {
   background-color: var(--third-color);
+}
+.field {
+  background-color: var(--white-color);
 }
 .title-team {
   font-weight: 700;
@@ -144,6 +150,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: var(--base-txt-clr);
 }
 .name {
@@ -221,10 +228,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--base-txt-clr);
 }
 .portfolio-category {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-clr);
 }
