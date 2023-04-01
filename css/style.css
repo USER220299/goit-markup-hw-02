@@ -57,7 +57,7 @@ body {
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--secondary-btn-clr);
 }
 .address {
   font-style: normal;
@@ -78,7 +78,6 @@ body {
   background-color: var(--secondary-color);
 }
 .title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -100,11 +99,7 @@ body {
   background-color: var(--secondary-btn-clr);
 }
 /*=========== FEATURE SECTION========== */
-.feature {
-  background-color: var(--primary-color);
-}
 .title-feature {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -125,11 +120,8 @@ body {
   color: var(--secondary-text-clr);
 }
 /*=========== WE DOING SECTION========== */
-.wedoing {
-  background-color: var(--primary-color);
-}
+
 .title-wedoing {
-  font-weight: 700;
   font-size: 36px;
   text-align: center;
   line-height: 1.11;
@@ -145,7 +137,6 @@ body {
   background-color: var(--white-color);
 }
 .title-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -189,7 +180,6 @@ body {
   color: var(--third-color);
 }
 .footer > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -199,11 +189,7 @@ body {
 /* ---------------------Portfolio.html------------------- */
 
 /* ============PORTFOLIO SECTION============ */
-.portfolio {
-  background-color: var(--primary-color);
-}
 .title-portfolio {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
