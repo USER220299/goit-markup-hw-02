@@ -17,6 +17,7 @@ body {
 }
 
 /* ============resert perematers=========== */
+
 .list {
   list-style: none;
 }
@@ -25,6 +26,7 @@ body {
 }
 
 /*=========== HEADER SECTION========== */
+
 .header {
   background-color: var(--white-color);
 }
@@ -59,9 +61,11 @@ body {
 .menu-link:focus {
   color: var(--secondary-btn-clr);
 }
+
 .address {
   font-style: normal;
 }
+
 .contact {
   font-size: 16px;
   line-height: 1.5;
